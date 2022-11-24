@@ -1,0 +1,51 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test While Loop Testsuite 24 :: Based on the condition if we want to...
+==============================================================================
+My While Loop Test 1 :: Print numbers from 1 to 10                    
+Value is: 1
+
+Value is: 2
+
+Value is: 3
+
+Value is: 4
+
+Value is: 5
+
+Value is: 6
+
+Value is: 7
+
+Value is: 8
+
+Value is: 9
+
+Value is: 10
+| PASS |
+------------------------------------------------------------------------------
+My While Loop Test 2 :: Print numbers from 1 to 10                    
+Value is: 1
+
+Value is: 2
+
+Value is: 3
+
+Value is: 4
+| PASS |
+------------------------------------------------------------------------------
+My While Loop Test 3 :: using 'continue' print only even numbers      Even Value Is: 2
+Even Value Is: 4
+Even Value Is: 6
+Even Value Is: 8
+Even Value Is: 10
+| PASS |
+------------------------------------------------------------------------------
+Suites.Test While Loop Testsuite 24 :: Based on the condition if w... | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Output:  C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\pabot_results\13\output.xml

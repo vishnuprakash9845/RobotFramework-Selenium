@@ -1,0 +1,22 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test Variable File Test Suite :: In this test suite we are testing v...
+==============================================================================
+My Variable File Test Case                                            
+Value of a is: 10
+
+Value of b is: Robot
+
+Value of c is: [100, 200, 300]
+
+Value of d is: {'A': 10, 'B': 20}
+| PASS |
+------------------------------------------------------------------------------
+Suites.Test Variable File Test Suite :: In this test suite we are ... | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\pabot_results\12\output.xml

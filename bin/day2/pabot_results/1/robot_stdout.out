@@ -1,0 +1,64 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test Exceptions Handlind Testsuite 26 :: In this test suite we are t...
+==============================================================================
+My Test Case 1 :: Without handling exceptions                           
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_exceptions_handlind_testsuite_26.robot:5
+    T:  My Test Case 1    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_exceptions_handlind_testsuite_26.robot:9
+      Evaluate    ${x}/${y}
+      |  ${x}/${y} = 10/0 (str)
+______________________________________________________________________________
+| FAIL |
+Evaluating expression '10/0' failed: ZeroDivisionError: division by zero
+------------------------------------------------------------------------------
+My Test Case 2                                                        
+This is My Test Case 2
+| PASS |
+------------------------------------------------------------------------------
+My Test Case 3 :: Handling exceptions                                   
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_exceptions_handlind_testsuite_26.robot:15
+    T:  My Test Case 3    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_exceptions_handlind_testsuite_26.robot:19
+          
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_exceptions_handlind_testsuite_26.robot:20
+      Evaluate    ${x}/${y}
+      |  ${x}/${y} = 10/0 (str)
+______________________________________________________________________________
+Some error in try block, please check test case 3
+| PASS |
+------------------------------------------------------------------------------
+My Test Case 4 :: Handling exceptions                                   
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_exceptions_handlind_testsuite_26.robot:27
+    T:  My Test Case 4    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_exceptions_handlind_testsuite_26.robot:31
+          
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_exceptions_handlind_testsuite_26.robot:32
+      Evaluate    ${x}/${y}
+      |  ${x}/${y} = 10/0 (str)
+______________________________________________________________________________
+
+Some error in try block, please check test case 4
+
+Reason is: Evaluating expression '10/0' failed: ZeroDivisionError: division by zero
+| PASS |
+------------------------------------------------------------------------------
+Suites.Test Exceptions Handlind Testsuite 26 :: In this test suite... | FAIL |
+4 tests, 3 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+4 tests, 3 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\pabot_results\1\output.xml

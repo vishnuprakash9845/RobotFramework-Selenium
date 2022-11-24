@@ -1,0 +1,64 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test For Loop Testsuite 23 :: In this file we are testing for loop     
+==============================================================================
+My List Test Case 1 :: print each value present in list               
+Value of i is: 100
+
+Value of i is: 200
+
+Value of i is: 300
+| PASS |
+------------------------------------------------------------------------------
+My List Test Case 2 :: If value is 300 then break the loop            
+Value of i is: 100
+
+Value of i is: 200
+| PASS |
+------------------------------------------------------------------------------
+My List Test Case 3 :: In between we can send for next iteration u... 
+Value of i is: 100
+
+Value of i is: 300
+| PASS |
+------------------------------------------------------------------------------
+My List Test Case 5 :: We can use ENUMERATE to make (index, value)... 
+Index is: 0 and value is: 100
+
+Index is: 1 and value is: 200
+
+Index is: 2 and value is: 300
+| PASS |
+------------------------------------------------------------------------------
+My List Test Case 6 :: We can use zip to make pair of 2 or more li... 
+Value of i is: 100 and Value of j is: 100
+
+Value of i is: 200 and Value of j is: 200
+
+Value of i is: 300 and Value of j is: 300
+| PASS |
+------------------------------------------------------------------------------
+My Dictionary Test Case 1 :: We can iterate through keys              
+ Item is: ('a', 100)
+
+ Item is: ('b', 200)
+
+ Item is: ('c', 300)
+| PASS |
+------------------------------------------------------------------------------
+My Dictionary Test Case 2 :: we can iterate through key and values    
+Key is: a and value is: 100
+
+Key is: b and value is: 200
+
+Key is: c and value is: 300
+| PASS |
+------------------------------------------------------------------------------
+Suites.Test For Loop Testsuite 23 :: In this file we are testing f... | PASS |
+7 tests, 7 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+7 tests, 7 passed, 0 failed
+==============================================================================
+Output:  C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\pabot_results\2\output.xml

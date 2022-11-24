@@ -1,0 +1,33 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test Xml Testsuite 28 :: We are testing 'xml' standard library         
+==============================================================================
+My XML Parse Test                                                     
+XML File Content:
+
+<mycourse>
+    <name id="1">Robot Framework</name>
+    <mode id="2">Online</mode>
+</mycourse>
+
+
+
+ROOT is: <Element 'mycourse' at 0x0000026A188F9A80>
+
+ROOT Tag is: mycourse
+
+Name object reference: <Element 'name' at 0x0000026A188F9F80>
+
+Name is: Robot Framework
+
+Name Attribute is: {'id': '1'}
+| PASS |
+------------------------------------------------------------------------------
+Suites.Test Xml Testsuite 28 :: We are testing 'xml' standard library | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\pabot_results\14\output.xml

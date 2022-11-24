@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20221122 11:53:50.657" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test Variable File Test Suite" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_variable_file_test_suite.robot">
+<test id="s1-s1-t1" name="My Variable File Test Case" line="7">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nValue of a is: ${a}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:53:50.795" endtime="20221122 11:53:50.798"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nValue of b is: ${b}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:53:50.799" endtime="20221122 11:53:50.800"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nValue of c is: ${c}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:53:50.800" endtime="20221122 11:53:50.802"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nValue of d is: ${d}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:53:50.802" endtime="20221122 11:53:50.804"/>
+</kw>
+<status status="PASS" starttime="20221122 11:53:50.793" endtime="20221122 11:53:50.804"/>
+</test>
+<doc>In this test suite we are testing variables
+present in myvariables.py</doc>
+<status status="PASS" starttime="20221122 11:53:50.759" endtime="20221122 11:53:50.807"/>
+</suite>
+<status status="PASS" starttime="20221122 11:53:50.689" endtime="20221122 11:53:50.811"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Test Variable File Test Suite">Suites.Test Variable File Test Suite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

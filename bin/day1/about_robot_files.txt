@@ -1,0 +1,33 @@
+# -------------------
+# About Robot Framework
+# -------------------
+# - testing framework
+# - keyword driven testing framework
+# -------------------
+
+
+# -------------------
+# Robot Framework High Level Architecture
+# -------------------
+# Test Data
+#   ^
+#   |
+# Robot Framework + Its libraries
+#   |
+#   V
+# System under test
+# -------------------
+
+
+# -------------------
+# Inside Robot Framework Test Case/Test Suite file
+# -------------------
+#  1. Settings Section
+#       - importing all test libraries
+#       - Resources files
+#       - Variables file
+#  2. Variables Section
+#  3. Test Cases Section
+#  4. Keywords Section
+#  5. Comments Section
+# -------------------

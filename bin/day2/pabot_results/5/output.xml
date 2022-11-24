@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20221122 11:52:53.806" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test Mylib2 Testsuite 22" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_mylib2_testsuite_22.robot">
+<test id="s1-s1-t1" name="My Lib2 Test Case" line="6">
+<kw name="My Add Func" library="mylib2">
+<var>${add_result}</var>
+<arg>${10}</arg>
+<arg>${20}</arg>
+<msg timestamp="20221122 11:52:54.034" level="INFO">${add_result} = 30</msg>
+<status status="PASS" starttime="20221122 11:52:54.029" endtime="20221122 11:52:54.035"/>
+</kw>
+<kw name="My Sub Func" library="mylib2">
+<var>${sub_result}</var>
+<arg>${10}</arg>
+<arg>${20}</arg>
+<msg timestamp="20221122 11:52:54.040" level="INFO">${sub_result} = -10</msg>
+<status status="PASS" starttime="20221122 11:52:54.035" endtime="20221122 11:52:54.041"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nAdd result is: ${add_result}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:52:54.042" endtime="20221122 11:52:54.044"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nSub result is: ${sub_result}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:52:54.045" endtime="20221122 11:52:54.047"/>
+</kw>
+<status status="PASS" starttime="20221122 11:52:54.026" endtime="20221122 11:52:54.047"/>
+</test>
+<doc>In this test suite, we are using mylib2 library</doc>
+<status status="PASS" starttime="20221122 11:52:54.000" endtime="20221122 11:52:54.051"/>
+</suite>
+<status status="PASS" starttime="20221122 11:52:53.862" endtime="20221122 11:52:54.056"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Test Mylib2 Testsuite 22">Suites.Test Mylib2 Testsuite 22</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

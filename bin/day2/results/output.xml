@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20221123 07:22:28.532" rpa="false" schemaversion="3">
+<suite id="s1" name="Test Selenium Testsuite 30" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_selenium_testsuite_30.robot">
+<test id="s1-t1" name="My Invalid Login Test Case" line="11">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.saucedemo.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221123 07:22:29.420" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<status status="PASS" starttime="20221123 07:22:29.419" endtime="20221123 07:22:32.966"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221123 07:22:32.967" endtime="20221123 07:22:33.150"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:user-name</arg>
+<arg>standard_user</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221123 07:22:33.153" level="INFO">Typing text 'standard_user' into text field 'name:user-name'.</msg>
+<status status="PASS" starttime="20221123 07:22:33.151" endtime="20221123 07:22:33.532"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>xyz</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20221123 07:22:33.535" level="INFO">Typing password into text field 'name:password'.</msg>
+<msg timestamp="20221123 07:22:33.694" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20221123 07:22:33.840" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20221123 07:22:33.533" endtime="20221123 07:22:33.840"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://*[@id="login-button"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221123 07:22:33.843" level="INFO">Clicking button 'xpath://*[@id="login-button"]'.</msg>
+<status status="PASS" starttime="20221123 07:22:33.841" endtime="20221123 07:22:34.110"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Epic sadface</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20221123 07:22:34.183" level="INFO">Current page contains text 'Epic sadface'.</msg>
+<status status="PASS" starttime="20221123 07:22:34.111" endtime="20221123 07:22:34.183"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:user-name</arg>
+<arg>\\01</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20221123 07:22:34.195" level="INFO">Sending key(s) ('\\01',) to name:user-name element.</msg>
+<msg timestamp="20221123 07:22:34.583" level="INFO">Sending keys \01</msg>
+<status status="PASS" starttime="20221123 07:22:34.188" endtime="20221123 07:22:34.629"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:user-name</arg>
+<arg>\\127</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20221123 07:22:34.632" level="INFO">Sending key(s) ('\\127',) to name:user-name element.</msg>
+<msg timestamp="20221123 07:22:34.931" level="INFO">Sending keys \127</msg>
+<status status="PASS" starttime="20221123 07:22:34.630" endtime="20221123 07:22:34.978"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>10s</arg>
+<arg>2s</arg>
+<arg>click element</arg>
+<arg>${inputElement}</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${inputElement}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221123 07:22:34.983" level="INFO">Clicking element 'xpath://*[@id="login-button1"]'.</msg>
+<msg timestamp="20221123 07:22:35.381" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-8.png"&gt;&lt;img src="selenium-screenshot-8.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20221123 07:22:35.382" level="FAIL">Element with locator 'xpath://*[@id="login-button1"]' not found.</msg>
+<status status="FAIL" starttime="20221123 07:22:34.981" endtime="20221123 07:22:35.390"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${inputElement}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221123 07:22:37.405" level="INFO">Clicking element 'xpath://*[@id="login-button1"]'.</msg>
+<msg timestamp="20221123 07:22:37.704" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20221123 07:22:37.704" level="FAIL">Element with locator 'xpath://*[@id="login-button1"]' not found.</msg>
+<status status="FAIL" starttime="20221123 07:22:37.404" endtime="20221123 07:22:37.705"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${inputElement}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221123 07:22:39.719" level="INFO">Clicking element 'xpath://*[@id="login-button1"]'.</msg>
+<msg timestamp="20221123 07:22:40.234" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-10.png"&gt;&lt;img src="selenium-screenshot-10.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20221123 07:22:40.235" level="FAIL">Element with locator 'xpath://*[@id="login-button1"]' not found.</msg>
+<status status="FAIL" starttime="20221123 07:22:39.717" endtime="20221123 07:22:40.237"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${inputElement}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221123 07:22:42.239" level="INFO">Clicking element 'xpath://*[@id="login-button1"]'.</msg>
+<msg timestamp="20221123 07:22:42.700" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-11.png"&gt;&lt;img src="selenium-screenshot-11.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20221123 07:22:42.701" level="FAIL">Element with locator 'xpath://*[@id="login-button1"]' not found.</msg>
+<status status="FAIL" starttime="20221123 07:22:42.237" endtime="20221123 07:22:42.702"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${inputElement}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221123 07:22:44.707" level="INFO">Clicking element 'xpath://*[@id="login-button1"]'.</msg>
+<msg timestamp="20221123 07:22:45.050" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-12.png"&gt;&lt;img src="selenium-screenshot-12.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20221123 07:22:45.050" level="FAIL">Element with locator 'xpath://*[@id="login-button1"]' not found.</msg>
+<status status="FAIL" starttime="20221123 07:22:44.705" endtime="20221123 07:22:45.051"/>
+</kw>
+<msg timestamp="20221123 07:22:45.051" level="FAIL">Keyword 'click element' failed after retrying for 10 seconds. The last error was: Element with locator 'xpath://*[@id="login-button1"]' not found.</msg>
+<status status="FAIL" starttime="20221123 07:22:34.980" endtime="20221123 07:22:45.052"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20221123 07:22:45.053" endtime="20221123 07:22:45.053"/>
+</kw>
+<status status="FAIL" starttime="20221123 07:22:29.416" endtime="20221123 07:22:45.054">Keyword 'click element' failed after retrying for 10 seconds. The last error was: Element with locator 'xpath://*[@id="login-button1"]' not found.</status>
+</test>
+<doc>We are testing 'invalid login' for the website 'https://www.saucedemo.com/'
+using selenium library</doc>
+<meta name="Version 1"/>
+<status status="FAIL" starttime="20221123 07:22:28.539" endtime="20221123 07:22:45.059"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test Selenium Testsuite 30">Test Selenium Testsuite 30</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

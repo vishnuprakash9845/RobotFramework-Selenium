@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20221122 11:52:48.573" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test Date Time Testsuite 29" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_date_time_testsuite_29.robot">
+<test id="s1-s1-t1" name="My Date Time Test Case" line="6">
+<kw name="Get Current Date" library="DateTime">
+<var>${date1}</var>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<msg timestamp="20221122 11:52:48.787" level="INFO">${date1} = 2022-11-22 11:52:48.786</msg>
+<status status="PASS" starttime="20221122 11:52:48.785" endtime="20221122 11:52:48.787"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nCurrent Date: ${date1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:52:48.788" endtime="20221122 11:52:48.791"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${date2}</var>
+<arg>2022-11-22 10:07:00</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20221122 11:52:48.793" level="INFO">${date2} = 2022-11-22 10:07:00</msg>
+<status status="PASS" starttime="20221122 11:52:48.792" endtime="20221122 11:52:48.793"/>
+</kw>
+<kw name="Subtract Date From Date" library="DateTime">
+<var>${result}</var>
+<arg>${date1}</arg>
+<arg>${date2}</arg>
+<doc>Subtracts date from another date and returns time between.</doc>
+<msg timestamp="20221122 11:52:48.814" level="INFO">${result} = 6348.786</msg>
+<status status="PASS" starttime="20221122 11:52:48.794" endtime="20221122 11:52:48.815"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nDate Difference: ${result}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:52:48.815" endtime="20221122 11:52:48.817"/>
+</kw>
+<status status="PASS" starttime="20221122 11:52:48.782" endtime="20221122 11:52:48.818"/>
+</test>
+<doc>We are testing DateTime standard library</doc>
+<status status="PASS" starttime="20221122 11:52:48.760" endtime="20221122 11:52:48.822"/>
+</suite>
+<status status="PASS" starttime="20221122 11:52:48.646" endtime="20221122 11:52:48.826"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Test Date Time Testsuite 29">Suites.Test Date Time Testsuite 29</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

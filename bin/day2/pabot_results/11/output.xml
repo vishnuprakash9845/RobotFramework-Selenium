@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20221122 11:53:49.120" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test Selenium Testsuite Ver 4 33" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_selenium_testsuite_ver_4_33.robot">
+<test id="s1-s1-t1" name="My Test Case" line="10">
+<kw name="My Invalid Login Keyword">
+<arg>standard_user</arg>
+<arg>xyz</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.saucedemo.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221122 11:53:55.858" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<status status="PASS" starttime="20221122 11:53:55.856" endtime="20221122 11:53:59.480"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221122 11:53:59.480" endtime="20221122 11:53:59.643"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:user-name</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221122 11:53:59.647" level="INFO">Typing text 'standard_user' into text field 'name:user-name'.</msg>
+<status status="PASS" starttime="20221122 11:53:59.644" endtime="20221122 11:54:00.166"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20221122 11:54:00.170" level="INFO">Typing password into text field 'name:password'.</msg>
+<msg timestamp="20221122 11:54:00.328" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20221122 11:54:00.504" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20221122 11:54:00.167" endtime="20221122 11:54:00.505"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://*[@id="login-button"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221122 11:54:00.510" level="INFO">Clicking button 'xpath://*[@id="login-button"]'.</msg>
+<status status="PASS" starttime="20221122 11:54:00.505" endtime="20221122 11:54:00.799"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Epic sadface</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20221122 11:54:00.850" level="INFO">Current page contains text 'Epic sadface'.</msg>
+<status status="PASS" starttime="20221122 11:54:00.799" endtime="20221122 11:54:00.851"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221122 11:54:00.853" endtime="20221122 11:54:03.474"/>
+</kw>
+<status status="PASS" starttime="20221122 11:53:55.854" endtime="20221122 11:54:03.476"/>
+</kw>
+<status status="PASS" starttime="20221122 11:53:55.849" endtime="20221122 11:54:03.477"/>
+</test>
+<test id="s1-s1-t2" name="My Test Case" line="10">
+<kw name="My Invalid Login Keyword">
+<arg>xyz</arg>
+<arg>secret_sauce</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.saucedemo.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221122 11:54:03.485" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<status status="PASS" starttime="20221122 11:54:03.483" endtime="20221122 11:54:07.313"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221122 11:54:07.314" endtime="20221122 11:54:07.489"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:user-name</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221122 11:54:07.493" level="INFO">Typing text 'xyz' into text field 'name:user-name'.</msg>
+<status status="PASS" starttime="20221122 11:54:07.490" endtime="20221122 11:54:07.747"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20221122 11:54:07.750" level="INFO">Typing password into text field 'name:password'.</msg>
+<msg timestamp="20221122 11:54:07.905" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20221122 11:54:08.129" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20221122 11:54:07.748" endtime="20221122 11:54:08.129"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://*[@id="login-button"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221122 11:54:08.130" level="INFO">Clicking button 'xpath://*[@id="login-button"]'.</msg>
+<status status="PASS" starttime="20221122 11:54:08.130" endtime="20221122 11:54:08.253"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Epic sadface</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20221122 11:54:08.287" level="INFO">Current page contains text 'Epic sadface'.</msg>
+<status status="PASS" starttime="20221122 11:54:08.254" endtime="20221122 11:54:08.287"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221122 11:54:08.287" endtime="20221122 11:54:10.627"/>
+</kw>
+<status status="PASS" starttime="20221122 11:54:03.482" endtime="20221122 11:54:10.627"/>
+</kw>
+<status status="PASS" starttime="20221122 11:54:03.480" endtime="20221122 11:54:10.628"/>
+</test>
+<test id="s1-s1-t3" name="My Test Case" line="10">
+<kw name="My Invalid Login Keyword">
+<arg>xyz</arg>
+<arg>xyz</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.saucedemo.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221122 11:54:10.637" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<status status="PASS" starttime="20221122 11:54:10.635" endtime="20221122 11:54:13.665"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221122 11:54:13.667" endtime="20221122 11:54:13.864"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:user-name</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221122 11:54:13.867" level="INFO">Typing text 'xyz' into text field 'name:user-name'.</msg>
+<status status="PASS" starttime="20221122 11:54:13.865" endtime="20221122 11:54:14.191"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20221122 11:54:14.194" level="INFO">Typing password into text field 'name:password'.</msg>
+<msg timestamp="20221122 11:54:14.343" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20221122 11:54:14.494" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20221122 11:54:14.191" endtime="20221122 11:54:14.495"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://*[@id="login-button"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221122 11:54:14.498" level="INFO">Clicking button 'xpath://*[@id="login-button"]'.</msg>
+<status status="PASS" starttime="20221122 11:54:14.495" endtime="20221122 11:54:14.707"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Epic sadface</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20221122 11:54:14.757" level="INFO">Current page contains text 'Epic sadface'.</msg>
+<status status="PASS" starttime="20221122 11:54:14.708" endtime="20221122 11:54:14.757"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221122 11:54:14.759" endtime="20221122 11:54:17.252"/>
+</kw>
+<status status="PASS" starttime="20221122 11:54:10.634" endtime="20221122 11:54:17.253"/>
+</kw>
+<status status="PASS" starttime="20221122 11:54:10.629" endtime="20221122 11:54:17.253"/>
+</test>
+<doc>We are testing 'invalid login' for the website 'https://www.saucedemo.com/'
+using selenium library</doc>
+<meta name="Version 4"/>
+<status status="PASS" starttime="20221122 11:53:49.242" endtime="20221122 11:54:17.253"/>
+</suite>
+<status status="PASS" starttime="20221122 11:53:49.153" endtime="20221122 11:54:17.256"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1" name="Test Selenium Testsuite Ver 4 33">Suites.Test Selenium Testsuite Ver 4 33</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20221122 11:54:03.479" level="WARN">Multiple tests with name 'My Test Case' executed in suite 'Suites.Test Selenium Testsuite Ver 4 33'.</msg>
+<msg timestamp="20221122 11:54:10.629" level="WARN">Multiple tests with name 'My Test Case' executed in suite 'Suites.Test Selenium Testsuite Ver 4 33'.</msg>
+</errors>
+</robot>

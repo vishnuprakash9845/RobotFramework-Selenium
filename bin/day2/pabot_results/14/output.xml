@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20221122 11:53:54.407" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test Xml Testsuite 28" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_xml_testsuite_28.robot">
+<test id="s1-s1-t1" name="My XML Parse Test" line="8">
+<kw name="Get File" library="OperatingSystem">
+<var>${my_xml}</var>
+<arg>my_test.xml</arg>
+<doc>Returns the contents of a specified file.</doc>
+<msg timestamp="20221122 11:53:54.624" level="INFO" html="true">Getting file '&lt;a href="file://C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\my_test.xml"&gt;C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\my_test.xml&lt;/a&gt;'.</msg>
+<msg timestamp="20221122 11:53:54.639" level="INFO">${my_xml} = &lt;mycourse&gt;
+    &lt;name id="1"&gt;Robot Framework&lt;/name&gt;
+    &lt;mode id="2"&gt;Online&lt;/mode&gt;
+&lt;/mycourse&gt;</msg>
+<status status="PASS" starttime="20221122 11:53:54.623" endtime="20221122 11:53:54.639"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nXML File Content:\n\n${my_xml}\n\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:53:54.640" endtime="20221122 11:53:54.643"/>
+</kw>
+<kw name="Parse Xml" library="XML">
+<var>${root}</var>
+<arg>${my_xml}</arg>
+<doc>Parses the given XML file or string into an element structure.</doc>
+<msg timestamp="20221122 11:53:54.646" level="INFO">${root} = &lt;Element 'mycourse' at 0x0000026A188F9A80&gt;</msg>
+<status status="PASS" starttime="20221122 11:53:54.644" endtime="20221122 11:53:54.646"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nROOT is: ${root}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:53:54.647" endtime="20221122 11:53:54.649"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nROOT Tag is: ${root.tag}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:53:54.649" endtime="20221122 11:53:54.652"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${root.tag}</arg>
+<arg>mycourse</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" starttime="20221122 11:53:54.653" endtime="20221122 11:53:54.656"/>
+</kw>
+<kw name="Get Element" library="XML">
+<var>${name}</var>
+<arg>${root}</arg>
+<arg>name</arg>
+<doc>Returns an element in the ``source`` matching the ``xpath``.</doc>
+<msg timestamp="20221122 11:53:54.658" level="INFO">${name} = &lt;Element 'name' at 0x0000026A188F9F80&gt;</msg>
+<status status="PASS" starttime="20221122 11:53:54.656" endtime="20221122 11:53:54.658"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nName object reference: ${name}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:53:54.658" endtime="20221122 11:53:54.659"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nName is: ${name.text}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:53:54.660" endtime="20221122 11:53:54.662"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${name.text}</arg>
+<arg>Robot Framework</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" starttime="20221122 11:53:54.663" endtime="20221122 11:53:54.667"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nName Attribute is: ${name.attrib}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:53:54.668" endtime="20221122 11:53:54.671"/>
+</kw>
+<kw name="Dictionary Should Contain Key" library="Collections">
+<arg>${name.attrib}</arg>
+<arg>id</arg>
+<doc>Fails if ``key`` is not found from ``dictionary``.</doc>
+<status status="PASS" starttime="20221122 11:53:54.672" endtime="20221122 11:53:54.674"/>
+</kw>
+<kw name="Element Text Should Be" library="XML">
+<arg>${name}</arg>
+<arg>Robot Framework</arg>
+<doc>Verifies that the text of the specified element is ``expected``.</doc>
+<status status="PASS" starttime="20221122 11:53:54.675" endtime="20221122 11:53:54.676"/>
+</kw>
+<kw name="Element Attribute Should Be" library="XML">
+<arg>${name}</arg>
+<arg>id</arg>
+<arg>1</arg>
+<doc>Verifies that the specified attribute is ``expected``.</doc>
+<status status="PASS" starttime="20221122 11:53:54.677" endtime="20221122 11:53:54.678"/>
+</kw>
+<status status="PASS" starttime="20221122 11:53:54.619" endtime="20221122 11:53:54.679"/>
+</test>
+<doc>We are testing 'xml' standard library</doc>
+<status status="PASS" starttime="20221122 11:53:54.520" endtime="20221122 11:53:54.681"/>
+</suite>
+<status status="PASS" starttime="20221122 11:53:54.440" endtime="20221122 11:53:54.684"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Test Xml Testsuite 28">Suites.Test Xml Testsuite 28</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

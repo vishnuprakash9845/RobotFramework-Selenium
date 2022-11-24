@@ -1,0 +1,20 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test Resource File Testsuite 20 :: In this test suite we are using m...
+==============================================================================
+My Test Case                                                          
+Host is: 192.168.13.10
+
+Port is: 1234
+
+This is MySSH keyword in resource file
+| PASS |
+------------------------------------------------------------------------------
+Suites.Test Resource File Testsuite 20 :: In this test suite we ar... | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\pabot_results\6\output.xml

@@ -1,0 +1,25 @@
+# ------------
+# Parallel Execution
+# ------------
+# - install library robotframework-pabot
+# - execute below command
+#   pabot --process 2 --outputdir results some tests.robot
+#   Ex: pabot --processes 2 test*.robot
+# ------------
+
+# ------------
+# Startup Script - OPTION-1
+# ------------
+# - create my_startup_script.py
+#   in this py, mention all the scripts we want to execute
+# - Ex:
+#   from robot import run_cli
+#   run_cli(['--name', 'MyTest', '--output', 'out/xyz.xml', 'mysuite.robot'])
+# ------------
+
+# ------------
+# Startup Script - OPTION-2
+# ------------
+# - create run.bat
+# - pabot --process 2 --outputdir results some tests.robot
+# ------------

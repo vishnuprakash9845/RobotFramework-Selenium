@@ -1,0 +1,42 @@
+# ----------------
+# Complete Python Programming Language Structure
+# ----------------
+
+# ----------------
+# PART - 1 : Python Programming Language
+# ----------------
+# data types, if, for, while, functions, modules, packages, classes
+# exceptions handling etc
+# - We can develop any application/software from the scratch
+# ----------------
+
+# ----------------
+# PART - 2 : Builtins
+# ----------------
+# We have few variables, functions and classes are predefined/builtins
+#   which is getting installed when we install python
+# - Complete list: print(dir(__builtins__))
+# ----------------
+
+
+# ----------------
+# PART - 3 : Standard Libraries
+# ----------------
+# - Few libraries are getting installed when we install python
+# - Location: C:\Python311\Lib
+# - Documentation: https://docs.python.org/3/library/index.html
+# ----------------
+
+
+# ----------------
+# PART - 4 : 3rd party / External Libraries
+# ----------------
+# - MAIN BIG Repository for all python libraries
+# - We have to download, install and use it
+# ----------------
+
+# ----------------
+# PART - 5 : Custom Libraries
+# ----------------
+# Which we develop
+# ----------------

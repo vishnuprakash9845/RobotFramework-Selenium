@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20221122 11:52:56.155" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test Resource File Testsuite 20" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_resource_file_testsuite_20.robot">
+<test id="s1-s1-t1" name="My Test Case" line="7">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nHost is: ${host}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:52:56.360" endtime="20221122 11:52:56.362"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nPort is: ${port}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:52:56.363" endtime="20221122 11:52:56.365"/>
+</kw>
+<kw name="My SSH Keyword" library="myresources">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nThis is MySSH keyword in resource file</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:52:56.367" endtime="20221122 11:52:56.368"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>\nThis is MySSH keyword in resource file</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221122 11:52:56.370" level="INFO">
+This is MySSH keyword in resource file</msg>
+<status status="PASS" starttime="20221122 11:52:56.369" endtime="20221122 11:52:56.371"/>
+</kw>
+<status status="PASS" starttime="20221122 11:52:56.365" endtime="20221122 11:52:56.372"/>
+</kw>
+<status status="PASS" starttime="20221122 11:52:56.357" endtime="20221122 11:52:56.372"/>
+</test>
+<doc>In this test suite we are using myresources.robot
+resource file</doc>
+<status status="PASS" starttime="20221122 11:52:56.293" endtime="20221122 11:52:56.376"/>
+</suite>
+<status status="PASS" starttime="20221122 11:52:56.193" endtime="20221122 11:52:56.380"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Test Resource File Testsuite 20">Suites.Test Resource File Testsuite 20</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

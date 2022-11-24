@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20221122 11:52:51.487" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test If Stmt Testsuite 25" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_if_stmt_testsuite_25.robot">
+<test id="s1-s1-t1" name="My If Test Case 1" line="8">
+<if>
+<branch type="IF" condition="${x} == ${10}">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nValue is 10</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:52:51.684" endtime="20221122 11:52:51.685"/>
+</kw>
+<status status="PASS" starttime="20221122 11:52:51.682" endtime="20221122 11:52:51.685"/>
+</branch>
+<status status="PASS" starttime="20221122 11:52:51.680" endtime="20221122 11:52:51.686"/>
+</if>
+<status status="PASS" starttime="20221122 11:52:51.678" endtime="20221122 11:52:51.686"/>
+</test>
+<test id="s1-s1-t2" name="My If Test Case 2" line="14">
+<if>
+<branch type="IF" condition="${x} == ${10}">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nValue is 10</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:52:51.693" endtime="20221122 11:52:51.694"/>
+</kw>
+<status status="PASS" starttime="20221122 11:52:51.692" endtime="20221122 11:52:51.695"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nValue is NOT equal to 10</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20221122 11:52:51.697" endtime="20221122 11:52:51.698"/>
+</kw>
+<status status="NOT RUN" starttime="20221122 11:52:51.695" endtime="20221122 11:52:51.698"/>
+</branch>
+<status status="PASS" starttime="20221122 11:52:51.690" endtime="20221122 11:52:51.699"/>
+</if>
+<status status="PASS" starttime="20221122 11:52:51.688" endtime="20221122 11:52:51.699"/>
+</test>
+<test id="s1-s1-t3" name="My If Test Case 3" line="22">
+<if>
+<branch type="IF" condition="${x} == ${10}">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nValue is 10</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:52:51.705" endtime="20221122 11:52:51.706"/>
+</kw>
+<status status="PASS" starttime="20221122 11:52:51.704" endtime="20221122 11:52:51.707"/>
+</branch>
+<branch type="ELSE IF" condition="${x} &gt; ${10}">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nValue is greater than 10</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20221122 11:52:51.708" endtime="20221122 11:52:51.709"/>
+</kw>
+<status status="NOT RUN" starttime="20221122 11:52:51.707" endtime="20221122 11:52:51.709"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nValue is less than 10</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20221122 11:52:51.710" endtime="20221122 11:52:51.712"/>
+</kw>
+<status status="NOT RUN" starttime="20221122 11:52:51.710" endtime="20221122 11:52:51.712"/>
+</branch>
+<status status="PASS" starttime="20221122 11:52:51.702" endtime="20221122 11:52:51.713"/>
+</if>
+<status status="PASS" starttime="20221122 11:52:51.701" endtime="20221122 11:52:51.714"/>
+</test>
+<doc>We are testing conditional statement 'if'</doc>
+<status status="PASS" starttime="20221122 11:52:51.656" endtime="20221122 11:52:51.716"/>
+</suite>
+<status status="PASS" starttime="20221122 11:52:51.552" endtime="20221122 11:52:51.721"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1" name="Test If Stmt Testsuite 25">Suites.Test If Stmt Testsuite 25</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

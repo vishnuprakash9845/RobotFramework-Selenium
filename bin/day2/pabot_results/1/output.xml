@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20221122 11:52:48.645" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test Exceptions Handlind Testsuite 26" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\day2\test_exceptions_handlind_testsuite_26.robot">
+<test id="s1-s1-t1" name="My Test Case 1" line="5">
+<kw name="Set Variable" library="BuiltIn">
+<var>${x}</var>
+<arg>${10}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20221122 11:52:48.827" level="INFO">${x} = 10</msg>
+<status status="PASS" starttime="20221122 11:52:48.822" endtime="20221122 11:52:48.827"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${y}</var>
+<arg>${0}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20221122 11:52:48.830" level="INFO">${y} = 0</msg>
+<status status="PASS" starttime="20221122 11:52:48.828" endtime="20221122 11:52:48.831"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${result}</var>
+<arg>${x}/${y}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20221122 11:52:48.834" level="FAIL">Evaluating expression '10/0' failed: ZeroDivisionError: division by zero</msg>
+<status status="FAIL" starttime="20221122 11:52:48.831" endtime="20221122 11:52:48.835"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nResult is: ${result}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20221122 11:52:48.845" endtime="20221122 11:52:48.846"/>
+</kw>
+<doc>Without handling exceptions</doc>
+<status status="FAIL" starttime="20221122 11:52:48.819" endtime="20221122 11:52:48.847">Evaluating expression '10/0' failed: ZeroDivisionError: division by zero</status>
+</test>
+<test id="s1-s1-t2" name="My Test Case 2" line="12">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nThis is My Test Case 2</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:52:48.853" endtime="20221122 11:52:48.854"/>
+</kw>
+<status status="PASS" starttime="20221122 11:52:48.850" endtime="20221122 11:52:48.855"/>
+</test>
+<test id="s1-s1-t3" name="My Test Case 3" line="15">
+<kw name="Set Variable" library="BuiltIn">
+<var>${x}</var>
+<arg>${10}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20221122 11:52:48.930" level="INFO">${x} = 10</msg>
+<status status="PASS" starttime="20221122 11:52:48.858" endtime="20221122 11:52:48.931"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${y}</var>
+<arg>${0}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20221122 11:52:48.935" level="INFO">${y} = 0</msg>
+<status status="PASS" starttime="20221122 11:52:48.932" endtime="20221122 11:52:48.935"/>
+</kw>
+<try>
+<branch type="TRY">
+<kw name="Evaluate" library="BuiltIn">
+<var>${result}</var>
+<arg>${x}/${y}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20221122 11:52:48.939" level="FAIL">Evaluating expression '10/0' failed: ZeroDivisionError: division by zero</msg>
+<status status="FAIL" starttime="20221122 11:52:48.937" endtime="20221122 11:52:48.939"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nResult is: ${result}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20221122 11:52:48.941" endtime="20221122 11:52:48.942"/>
+</kw>
+<status status="FAIL" starttime="20221122 11:52:48.936" endtime="20221122 11:52:48.942"/>
+</branch>
+<branch type="EXCEPT">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Some error in try block, please check test case 3</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:52:48.945" endtime="20221122 11:52:48.947"/>
+</kw>
+<status status="PASS" starttime="20221122 11:52:48.943" endtime="20221122 11:52:48.947"/>
+</branch>
+<status status="PASS" starttime="20221122 11:52:48.936" endtime="20221122 11:52:48.948"/>
+</try>
+<doc>Handling exceptions</doc>
+<status status="PASS" starttime="20221122 11:52:48.856" endtime="20221122 11:52:48.948"/>
+</test>
+<test id="s1-s1-t4" name="My Test Case 4" line="27">
+<kw name="Set Variable" library="BuiltIn">
+<var>${x}</var>
+<arg>${10}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20221122 11:52:48.957" level="INFO">${x} = 10</msg>
+<status status="PASS" starttime="20221122 11:52:48.954" endtime="20221122 11:52:48.957"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${y}</var>
+<arg>${0}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20221122 11:52:48.961" level="INFO">${y} = 0</msg>
+<status status="PASS" starttime="20221122 11:52:48.958" endtime="20221122 11:52:48.961"/>
+</kw>
+<try>
+<branch type="TRY">
+<kw name="Evaluate" library="BuiltIn">
+<var>${result}</var>
+<arg>${x}/${y}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20221122 11:52:48.986" level="FAIL">Evaluating expression '10/0' failed: ZeroDivisionError: division by zero</msg>
+<status status="FAIL" starttime="20221122 11:52:48.964" endtime="20221122 11:52:48.987"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nResult is: ${result}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20221122 11:52:48.989" endtime="20221122 11:52:48.990"/>
+</kw>
+<status status="FAIL" starttime="20221122 11:52:48.962" endtime="20221122 11:52:48.991"/>
+</branch>
+<branch type="EXCEPT" variable="${msg}">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nSome error in try block, please check test case 4</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:52:48.993" endtime="20221122 11:52:48.994"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nReason is: ${msg}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221122 11:52:48.995" endtime="20221122 11:52:48.997"/>
+</kw>
+<status status="PASS" starttime="20221122 11:52:48.991" endtime="20221122 11:52:48.997"/>
+</branch>
+<status status="PASS" starttime="20221122 11:52:48.961" endtime="20221122 11:52:48.998"/>
+</try>
+<doc>Handling exceptions</doc>
+<status status="PASS" starttime="20221122 11:52:48.950" endtime="20221122 11:52:49.000"/>
+</test>
+<doc>In this test suite we are testing exceptions handling</doc>
+<status status="FAIL" starttime="20221122 11:52:48.807" endtime="20221122 11:52:49.022"/>
+</suite>
+<status status="FAIL" starttime="20221122 11:52:48.704" endtime="20221122 11:52:49.029"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="1" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="3" fail="1" skip="0" id="s1-s1" name="Test Exceptions Handlind Testsuite 26">Suites.Test Exceptions Handlind Testsuite 26</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

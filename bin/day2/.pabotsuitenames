@@ -1,0 +1,19 @@
+datasources:4e9423ffe5a06b7d4968a614bc8da83063d67ea8
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:bf34e39210df4d3fed7d3c93cc566a7e78e95aba
+--suite Suites.Test Date Time Testsuite 29
+--suite Suites.Test Exceptions Handlind Testsuite 26
+--suite Suites.Test For Loop Testsuite 23
+--suite Suites.Test If Stmt Testsuite 25
+--suite Suites.Test Mylib1 Testsuite 21
+--suite Suites.Test Mylib2 Testsuite 22
+--suite Suites.Test Resource File Testsuite 20
+--suite Suites.Test Screenshot Testsuite 27
+--suite Suites.Test Selenium Testsuite 30
+--suite Suites.Test Selenium Testsuite Ver 2 31
+--suite Suites.Test Selenium Testsuite Ver 3 32
+--suite Suites.Test Selenium Testsuite Ver 4 33
+--suite Suites.Test Variable File Test Suite
+--suite Suites.Test While Loop Testsuite 24
+--suite Suites.Test Xml Testsuite 28

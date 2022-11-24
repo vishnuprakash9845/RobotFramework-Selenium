@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20221121 07:58:02.522" rpa="false" schemaversion="3">
+<suite id="s1" name="Bin" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin">
+<suite id="s1-s1" name="Test Dictionary Testsuite 6" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\test_dictionary_testsuite_6.robot">
+<test id="s1-s1-t1" name="My Dictionary Test" line="8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nDictionary is: &amp;{my_courses}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.616" endtime="20221121 07:58:02.616"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>\nDictionary is: &amp;{my_courses}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221121 07:58:02.616" level="INFO">
+Dictionary is: {'course1': 'Python', 'course2': 'Java', 'course3': 'C++'}</msg>
+<status status="PASS" starttime="20221121 07:58:02.616" endtime="20221121 07:58:02.616"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>1st course name ${my_courses}[course1]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.616" endtime="20221121 07:58:02.616"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>1st course name ${my_courses}[course1]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221121 07:58:02.632" level="INFO">1st course name Python</msg>
+<status status="PASS" starttime="20221121 07:58:02.616" endtime="20221121 07:58:02.632"/>
+</kw>
+<status status="PASS" starttime="20221121 07:58:02.616" endtime="20221121 07:58:02.632"/>
+</test>
+<doc>In this test suite we are testing dictionary</doc>
+<status status="PASS" starttime="20221121 07:58:02.600" endtime="20221121 07:58:02.632"/>
+</suite>
+<suite id="s1-s2" name="Test Documentation Testsuite 2" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\test_documentation_testsuite_2.robot">
+<test id="s1-s2-t1" name="My Test Case" line="5">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is demo of DOCUMENTATION</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.647" endtime="20221121 07:58:02.647"/>
+</kw>
+<doc>Provide descritpiton about this test case</doc>
+<status status="PASS" starttime="20221121 07:58:02.647" endtime="20221121 07:58:02.647"/>
+</test>
+<doc>Provide Description about this test suite</doc>
+<status status="PASS" starttime="20221121 07:58:02.632" endtime="20221121 07:58:02.647"/>
+</suite>
+<suite id="s1-s3" name="Test First Testsuite 1" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\test_first_testsuite_1.robot">
+<test id="s1-s3-t1" name="My Test Case 1" line="2">
+<kw name="Log To Console" library="BuiltIn">
+<arg>HelloC</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.663" endtime="20221121 07:58:02.663"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>HelloLF</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221121 07:58:02.663" level="INFO">HelloLF</msg>
+<status status="PASS" starttime="20221121 07:58:02.663" endtime="20221121 07:58:02.663"/>
+</kw>
+<status status="PASS" starttime="20221121 07:58:02.663" endtime="20221121 07:58:02.663"/>
+</test>
+<status status="PASS" starttime="20221121 07:58:02.647" endtime="20221121 07:58:02.663"/>
+</suite>
+<suite id="s1-s4" name="Test Forcetags Testsuite 8" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\test_forcetags_testsuite_8.robot">
+<test id="s1-s4-t1" name="My Test Case 1" line="8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nThis is test case 1</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.679" endtime="20221121 07:58:02.679"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>\nThis is test case 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221121 07:58:02.694" level="INFO">
+This is test case 1</msg>
+<status status="PASS" starttime="20221121 07:58:02.679" endtime="20221121 07:58:02.694"/>
+</kw>
+<tag>regression</tag>
+<tag>Sanity</tag>
+<status status="PASS" starttime="20221121 07:58:02.679" endtime="20221121 07:58:02.694"/>
+</test>
+<test id="s1-s4-t2" name="My Test Case 2" line="13">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nThis is test case 2</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.694" endtime="20221121 07:58:02.694"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>\nThis is test case 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221121 07:58:02.694" level="INFO">
+This is test case 2</msg>
+<status status="PASS" starttime="20221121 07:58:02.694" endtime="20221121 07:58:02.694"/>
+</kw>
+<tag>regression</tag>
+<tag>Sanity</tag>
+<status status="PASS" starttime="20221121 07:58:02.694" endtime="20221121 07:58:02.694"/>
+</test>
+<test id="s1-s4-t3" name="My Test Case 3" line="18">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nThis is test case 3</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.694" endtime="20221121 07:58:02.710"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>\nThis is test case 3</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221121 07:58:02.710" level="INFO">
+This is test case 3</msg>
+<status status="PASS" starttime="20221121 07:58:02.710" endtime="20221121 07:58:02.710"/>
+</kw>
+<tag>Sanity</tag>
+<tag>smoke</tag>
+<status status="PASS" starttime="20221121 07:58:02.694" endtime="20221121 07:58:02.710"/>
+</test>
+<doc>In this test suite we are discussing about
+force tags which applies to all test cases</doc>
+<status status="PASS" starttime="20221121 07:58:02.679" endtime="20221121 07:58:02.710"/>
+</suite>
+<suite id="s1-s5" name="Test List Testsuite 5" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\test_list_testsuite_5.robot">
+<test id="s1-s5-t1" name="My List Test Case" line="8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>My list is @{my_list}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.725" endtime="20221121 07:58:02.725"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>My list is @{my_list}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221121 07:58:02.741" level="INFO">My list is ['Java', 'Python', 'C', 'C++']</msg>
+<status status="PASS" starttime="20221121 07:58:02.741" endtime="20221121 07:58:02.741"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>1st element is ${my_list}[${0}]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.741" endtime="20221121 07:58:02.741"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>1st element is ${my_list}[${0}]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221121 07:58:02.741" level="INFO">1st element is Java</msg>
+<status status="PASS" starttime="20221121 07:58:02.741" endtime="20221121 07:58:02.741"/>
+</kw>
+<status status="PASS" starttime="20221121 07:58:02.725" endtime="20221121 07:58:02.741"/>
+</test>
+<doc>In this test suite, we are discussing about list</doc>
+<status status="PASS" starttime="20221121 07:58:02.725" endtime="20221121 07:58:02.741"/>
+</suite>
+<suite id="s1-s6" name="Test Scalar Vars Testsuite 3" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\test_scalar_vars_testsuite_3.robot">
+<test id="s1-s6-t1" name="My Test Case" line="9">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nValue of a is ${a}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.772" endtime="20221121 07:58:02.772"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>\nValue of a is ${a}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221121 07:58:02.772" level="INFO">
+Value of a is 10</msg>
+<status status="PASS" starttime="20221121 07:58:02.772" endtime="20221121 07:58:02.772"/>
+</kw>
+<doc>In this test case we are testing scalar variable</doc>
+<status status="PASS" starttime="20221121 07:58:02.772" endtime="20221121 07:58:02.772"/>
+</test>
+<doc>In this test suite we are discussing about scalars in robot frameworks</doc>
+<status status="PASS" starttime="20221121 07:58:02.757" endtime="20221121 07:58:02.772"/>
+</suite>
+<suite id="s1-s7" name="Test Strings Testuite 4" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\test_strings_testuite_4.robot">
+<test id="s1-s7-t1" name="My String Test Case" line="9">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n Value of a is ${a}\n and Value of b is ${b}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.804" endtime="20221121 07:58:02.804"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n Character at 0th index ${b}[${0}]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.804" endtime="20221121 07:58:02.804"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n Character at 1st index ${b}[${1}]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.804" endtime="20221121 07:58:02.804"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n Character at 1st index ${b}[${1}:${4}]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.804" endtime="20221121 07:58:02.819"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>\n Value of a is ${a}\n and Value of b is ${b}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221121 07:58:02.819" level="INFO">
+ Value of a is 10
+ and Value of b is robot</msg>
+<status status="PASS" starttime="20221121 07:58:02.819" endtime="20221121 07:58:02.819"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>\n Character at 0th index ${b}[${0}]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221121 07:58:02.819" level="INFO">
+ Character at 0th index r</msg>
+<status status="PASS" starttime="20221121 07:58:02.819" endtime="20221121 07:58:02.819"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>\n Character at 1st index ${b}[${1}]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221121 07:58:02.819" level="INFO">
+ Character at 1st index o</msg>
+<status status="PASS" starttime="20221121 07:58:02.819" endtime="20221121 07:58:02.819"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>\n Character at 1st index ${b}[${1}:${4}]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221121 07:58:02.835" level="INFO">
+ Character at 1st index obo</msg>
+<status status="PASS" starttime="20221121 07:58:02.819" endtime="20221121 07:58:02.835"/>
+</kw>
+<status status="PASS" starttime="20221121 07:58:02.788" endtime="20221121 07:58:02.835"/>
+</test>
+<doc>In this test suite we are testing or discussing about strings</doc>
+<status status="PASS" starttime="20221121 07:58:02.788" endtime="20221121 07:58:02.835"/>
+</suite>
+<suite id="s1-s8" name="Test Testcasetags Testsuite 7" source="C:\Users\Administrator\PycharmProjects\RFTraining\bin\test_testcasetags_testsuite_7.robot">
+<test id="s1-s8-t1" name="My Test Case 1" line="5">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nThis is test case 1</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.850" endtime="20221121 07:58:02.850"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>\nThis is test case 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221121 07:58:02.850" level="INFO">
+This is test case 1</msg>
+<status status="PASS" starttime="20221121 07:58:02.850" endtime="20221121 07:58:02.850"/>
+</kw>
+<tag>regression</tag>
+<status status="PASS" starttime="20221121 07:58:02.850" endtime="20221121 07:58:02.850"/>
+</test>
+<test id="s1-s8-t2" name="My Test Case 2" line="10">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nThis is test case 2</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.866" endtime="20221121 07:58:02.866"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>\nThis is test case 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221121 07:58:02.866" level="INFO">
+This is test case 2</msg>
+<status status="PASS" starttime="20221121 07:58:02.866" endtime="20221121 07:58:02.866"/>
+</kw>
+<tag>regression</tag>
+<status status="PASS" starttime="20221121 07:58:02.866" endtime="20221121 07:58:02.866"/>
+</test>
+<test id="s1-s8-t3" name="My Test Case 3" line="15">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nThis is test case 3</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221121 07:58:02.866" endtime="20221121 07:58:02.866"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>\nThis is test case 3</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221121 07:58:02.866" level="INFO">
+This is test case 3</msg>
+<status status="PASS" starttime="20221121 07:58:02.866" endtime="20221121 07:58:02.866"/>
+</kw>
+<tag>smoke</tag>
+<status status="PASS" starttime="20221121 07:58:02.866" endtime="20221121 07:58:02.866"/>
+</test>
+<doc>In this test suite, we are learning tags in test cases</doc>
+<status status="PASS" starttime="20221121 07:58:02.835" endtime="20221121 07:58:02.881"/>
+</suite>
+<status status="PASS" starttime="20221121 07:58:02.538" endtime="20221121 07:58:02.881"/>
+</suite>
+<statistics>
+<total>
+<stat pass="12" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="4" fail="0" skip="0">regression</stat>
+<stat pass="3" fail="0" skip="0">Sanity</stat>
+<stat pass="2" fail="0" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat pass="12" fail="0" skip="0" id="s1" name="Bin">Bin</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Test Dictionary Testsuite 6">Bin.Test Dictionary Testsuite 6</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s2" name="Test Documentation Testsuite 2">Bin.Test Documentation Testsuite 2</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s3" name="Test First Testsuite 1">Bin.Test First Testsuite 1</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s4" name="Test Forcetags Testsuite 8">Bin.Test Forcetags Testsuite 8</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s5" name="Test List Testsuite 5">Bin.Test List Testsuite 5</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s6" name="Test Scalar Vars Testsuite 3">Bin.Test Scalar Vars Testsuite 3</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s7" name="Test Strings Testuite 4">Bin.Test Strings Testuite 4</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s8" name="Test Testcasetags Testsuite 7">Bin.Test Testcasetags Testsuite 7</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

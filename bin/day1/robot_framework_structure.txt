@@ -1,0 +1,46 @@
+# ----------------
+# About Robot framework
+# ----------------
+# As python_language_structure.txt, we have organized in 5 parts
+# So, where exactly robot framework will come?
+#
+# - It comes under PART - 4 : 3rd party / External Libraries
+# - robot framework is one of the 3rd party / External Library
+# - robot framework is for testing
+# ----------------
+
+# ----------------
+# Robot framework structure
+# ----------------
+
+# ----------------
+# PART - 1 : Inside Robot Framework we have Mini Language
+# ----------------
+# data types, if, for, while, keywords etc
+# ----------------
+
+# ----------------
+# PART - 2 : Inside Robot Framework we have Builtins
+# ----------------
+# - few keywords are predefined which we can make use of it
+# ----------------
+
+# ----------------
+# PART - 3 : Inside Robot Framework we have Standard Libraries
+# ----------------
+# Few libraries are getting installed when we install robot framework
+# ----------------
+
+# ----------------
+# PART - 4 : Robot Framework 3rd party / External Libraries
+# ----------------
+# - MAIN BIG Repository for all python libraries
+# - We have to download, install and use it
+# - In the same repository, we have libraries related robot framework
+# ----------------
+
+# ----------------
+# PART - 5 : Robot Framework Custom Libraries
+# ----------------
+# Which we develop
+# ----------------
